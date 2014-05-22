@@ -43,6 +43,14 @@ p{
 	padding: 10px;
 	box-shadow:2px 2px 2px 2px  #282828;
 }
+#Rp{
+	float:left;
+	margin-right:10px;
+
+}
+#Rp{
+
+}
 	/* Changing List */
 #inline li{
 	list-style-type:none;
