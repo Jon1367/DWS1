@@ -1,64 +1,170 @@
 body{
 	/*changing Body */
-	background-color: #FF8F60;
 	font-family:'helvetica';
 	text-align:center;
-	margin: auto; 
 	padding: 5px;
+	background-image:url("../images/pattern.jpg");
 	
 }
 	/* Front Heading */
 h1{
 	font-size:40px;
 	letter-spacing: 0.5em;
-	color:white;
+	color:#FEFDFF;
 	background-color: #E3BF7D;
 }
 h2{
 	font: 40px 'Shadows Into Light', Arial, cursive;
+	background:linear-gradient(#E3BF7D,#FCF2EE);
+	border: 1px solid #FFBF87;
+	border-radius: 10px;
+	padding: 10px;
+	box-shadow:2px 2px 2px 2px  #282828;
 
+}
+img{
+	margin-bottom:30px;
+
+}
+.list{
+		list-style-type:none;
+		font-size:10px;
+		float:right;
+	
 }
 /*changing quotes */
 q{
-	font-weight:200; 
+	color:#E3BF7D;
+	width:500px;
+	font-size:25px;
+	font-weight:200;
+	float: right; 
     font-style:italic;
-	color:#273A3D;
+	margin-top:87px;
+	margin-right:150px;
+	border-top: 2px solid #F0E16F;
+	border-bottom: 2px solid #F0E16F;
+	padding:10px;
 	text-align:center;
 }
-blockquote{
-	line-height:20px;
-    text-shadow: 2px 2px #FAFFFA;
-	color:#AD9970;
-	opacity: 0.9;
-	font-size: 20px;
+q strong{
+	 text-shadow: 1px 1px #FAFFFA;
 
 }
 	/* Changing paragraph */
 p{
+	width:600px;
 	border: 1px solid #FFBF87;
 	margin-right:50px;
 	margin-left:50px;
-	text-align:center;
 	border-radius: 10px;
 	padding: 10px;
 	box-shadow:2px 2px 2px 2px  #282828;
+	background-color: #E3BF7D;
+}
+figcaption {
+	float:left;
+}
+.clearRight{
+	clear:right
+}
+.clear{
+	clear:left;
+}
+.aid{
+	float:left;
+}
+.marginthing {
+	margin-bottom: 60px;
+	
+}
+.extend{
+	width:90%;
+}
+#sub{
+	font: 20px Arial, cursive;
+	color:#FEFDFF;
+	letter-spacing:0.5em;
 }
 #Rp{
 	float:left;
 	margin-right:10px;
+}
+#Rp2{
+    height:200px;
+	float:left;
+	margin-left:10px;
+}
+#Ap{
+	float:left;
+	height:180px;
+	margin-left:10px
+}
+#Ap2{
+	float:left;
+	margin-left:10px
+}
+#Fp{
+	margin-left:500px;
+}
+#Bp{
+	margin-left:500px;
+}
+#Lh{
+	margin-left:500px;
+}
+#aidlocation{
+	text-align:center;
+	list-style-type:none;
+}
+#freelocation{
+	width:400px;
+	float:right;
+	list-style-type:none;
+	margin-right:280px;
+	background-image:url("../images/hook.jpg");
+	background-repeat:no-repeat;
+	background-position:left top;
 
 }
-#Rp{
+#boulderlocation{
+	width:400px;
+	float:right;
+	list-style-type:none;
+	margin-right:280px;
+	background-image:url("../images/hook.jpg");
+	background-repeat:no-repeat;
+	background-position:left top;
 
+}
+#Leadlocation{
+	width:400px;
+	float:right;
+	list-style-type:none;
+	margin-right:280px;
+	background-image:url("../images/hook.jpg");
+	background-repeat:no-repeat;
+	background-position:left top;
+
+}
+#Lp{
+	float:left;
+}
+#Lp2{
+	float:left;
+	height:126px;
 }
 	/* Changing List */
 #inline li{
+	text-align:center;
 	list-style-type:none;
 	margin-right: 10px;
 }
 #menu li{
 	display: inline-block;
-
+}
+#source{
+	text-align:center;
 }
 	/* Links */
 a:link{
