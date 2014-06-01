@@ -1,0 +1,185 @@
+body{
+	/*changing Body */
+	font-family:'helvetica';
+	text-align:center;
+	padding: 5px;
+	background-image:url("../images/pattern.jpg");
+	
+}
+	/* Front Heading */
+h1{
+	font-size:40px;
+	letter-spacing: 0.5em;
+	color:#080300;
+	background:linear-gradient(#E3BF7D,#FCF2EE);
+	border: 1px solid #FFBF87;
+	border-radius: 10px;
+	padding: 10px;
+	margin:10px 0 10px 0;
+	box-shadow:2px 2px 2px 2px  #282828;
+	
+}
+h2{
+	font: 40px 'Shadows Into Light', Arial, cursive;
+	background:linear-gradient(#E3BF7D,#FCF2EE);
+	border: 1px solid #FFBF87;
+	border-radius: 10px;
+	padding: 10px;
+	box-shadow:2px 2px 2px 2px  #282828;
+
+}
+#sub{
+	font: 20px Arial, cursive;
+	color:#080300;
+	letter-spacing:0.5em;
+	margin:0px;
+}
+.list{
+		list-style-type:none;
+		font-size:10px;
+		float:right;
+}
+.left{
+	float:left;
+}
+.right{
+	float:right;
+}
+/*changing quotes */
+q{
+	color:#CED436;
+	width:300px;
+	font-size:20px;
+	font-weight:200;
+	float: left; 
+	margin-left:200px;
+	border-top: 2px solid #F0E16F;
+	border-bottom: 2px solid #F0E16F;
+	padding:10px;
+}
+q strong{
+	 text-shadow: 1px 1px #FAFFFA;
+
+}
+	/* Changing paragraph */
+p{
+	width:600px;
+	border: 1px solid #FFBF87;
+	margin-right:20px;
+	margin-left:20px;
+	border-radius: 10px;
+	padding: 10px;
+	box-shadow:2px 2px 2px 2px  #282828;
+	background-color: #E3BF7D;
+}
+figcaption {
+	float:left;
+}
+.clear{
+	clear:both;
+}
+
+.marginthing {
+	margin-bottom: 60px;
+	
+}
+.extend{
+	width:90%;
+}
+#sign{
+	color:#FFBF87;
+	margin-right:100px;
+}
+.color{
+	color:#FFBF87;
+}
+#Ap{
+	float:left;
+	height:180px;
+	margin-right:100px;
+}
+#Ap2{
+	float:left;
+	margin-left:10px
+}
+.mleft{
+	margin-left:65px;
+}
+#aidlocation{
+	margin-left:100px;
+	float:left;
+	list-style-type:none;
+}
+#freelocation{
+	width:400px;
+	float:left;
+	list-style-type:none;
+
+}
+#boulderlocation{
+	width:400px;
+	float:left;
+	list-style-type:none;
+	background-image:url("../images/hook.jpg");
+	background-repeat:no-repeat;
+	background-position:left top;
+
+}
+#Leadlocation{
+	width:400px;
+	float:left;
+	list-style-type:none;
+	margin-right:280px;
+	background-image:url("../images/hook.jpg");
+	background-repeat:no-repeat;
+	background-position:left top;
+
+}
+#Lp{
+	float:left;
+}
+#Lp2{
+	float:right;
+	height:126px;
+}
+td,th{
+	border: 1px solid #FFBF87;
+	padding:5px;
+	background-color:#E3BF7D;
+	letter-spacing:3px;
+	border-spacing:15px;
+}
+#table {
+	float:right;
+	margin-right:100px;
+	width:600px;
+}
+	/* Changing List */
+#inline li{
+	text-align:center;
+	list-style-type:none;
+	margin-right: 10px;
+}
+#menu li{
+	display: inline-block;
+}
+#source{
+	margin-right:0px;
+	text-align:center;
+}
+table:hover{
+	background-color:#4FA655;
+}
+	/* Links */
+a:link{
+	color:#5365F0;
+}
+a:visited{
+	color:#F0E16F;
+}
+a:hover{
+	font-size:24px;
+}
+a:active{
+	font-style:italic;
+}
