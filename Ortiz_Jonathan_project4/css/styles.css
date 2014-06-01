@@ -170,6 +170,9 @@ td,th{
 table:hover{
 	background-color:#4FA655;
 }
+input:focus {
+	background-color:#D6D391;
+}
 	/* Links */
 a:link{
 	color:#5365F0;

@@ -13,10 +13,13 @@
 	</head>
 		 <!-- Body -->
 	<body>
-		 <!-- Header 1 -->
+		 <!-- Header -->
+		 <header>
 		<h1 id = "top"> <b> Rock Climbers United </b></h1>
 		<h2 id ="sub"> - Search for your next adventure here. </h2>
+		</header>
 		 <!-- List -->
+		 <nav>
 			<ul id="menu">
 				<li><a href="#top"> Home </a></li>
 				<li><a href ="#Aid"> Aid Climbing</a></li>
@@ -24,6 +27,7 @@
 				<li><a href ="#Boulder">Bouldering Climbing</a></li>
 				<li><a href ="#Lead">Lead Climbing</a></li>		 
 			</ul>
+		</nav>
 			<!-- Image -->
 			<a href="images/climbing.jpg"><img src = "images/climbing.jpg"
 			alt = "climbing" class = 'left'/> </a>
@@ -49,20 +53,28 @@
 			<form>	
 			
 				<label class="right clear color"> Email Adress </label>
-				<input class="right clear" type="text" name="email"
-				maxlength = "50"/>
+				<input class="right clear" type="email" name="email"
+				maxlength = "50"
+				required ="required"
+				placeholder = "Enter Email"/>
 				
 				<label class="right clear color"> User Name </label>
 				<input class="right clear" type="text" name="email"
-				maxlength = "50"/>
+				placeholder = "Enter Name.."
+				maxlength = "50"
+				required ="required"/>
 				
 				<label class="right clear color"> Password </label>
 				<input class="right clear" type="text" name="password"
-				maxlength = "30"/>
+				maxlength = "30"
+				required ="required"
+				placeholder = "********"/>
 				
 				<label class="right clear color"> Confirm Password </label>
 				<input class="right clear" type="password" name="password"
-				maxlength = "30"/>
+				maxlength = "30"
+				required ="required"
+				placeholder = "ReEnter"/>
 				
 				<label class="right clear color">Feed Back</label>
 				<textarea class = "right clear " name="comments">
@@ -75,6 +87,23 @@
 				<label class=" right clear color">Female</label>
 				<input class="right color" type="radio" name="gender"
 				value="male" checked="checked"/>
+				
+				<label class= "right clear color">Device Most Used:</label>
+				<select class = 'right clear' name="devices ">
+				
+				<option value = "phone"
+				selected = "selected">phone</option>
+				
+				<option value = "Desktop"
+				selected = "selected">Desktop</option>
+				
+				<option value = "Desktop"
+				selected = "selected">Laptop</option> 
+				
+				<input class = "right clear" type="submit"
+				value="subscribe"/>
+				
+				</select>
 				
 			</form>
 			</div>
@@ -111,6 +140,7 @@
 				<li> Lead climbing </li>
 			</ol>
 		<h2 id = "Aid"> Aid Climbing </h2>
+		<article>
 		<p id = "Ap"> is a style of climbing in which standing on or pulling oneself up via devices
 		 attached to fixed or placed protection is used to make upward progress. The term
 		 contrasts with free climbing in which progress is made without weighting
@@ -131,7 +161,7 @@
           Decimal System rankings that rely on making progress with one's hands and feet 
           in direct contact with the rock alone. Aid climbing has its own ranking system, 
           using a separate scale from A0 through A5.[1]</p>
-          
+          </article>
           <!-- Image -->
 		 <figure>
 		 <a href = "images/Aid_Climbing.jpg">
@@ -265,12 +295,13 @@
 		  </figure>
 		  
 		<!-- Work cited -->
+		<footer>
 		 <p id = 'source'>Source:</p>
 		 Image Credit: <a href="http://vector.me/browse/435139/carabiner" title="Carabiner" target="_blank">
 		 Carabiner</a> from <a href="http://www.vector.me/" title="VECTOR.ME" target="_blank">VECTOR.ME</a> 
 		 (by Telemachos)
 		 <a href="http://en.wikipedia.org/wiki/Rock_climbing"> Rock Climbing Wiki</a>
-		
+		</footer>
 	</body> 
 
 
