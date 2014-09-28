@@ -1,0 +1,489 @@
+/*====Style Sheet ====*/
+/*
+
+	lightest : #FAFABE
+	light brown : #F0DC96
+	dark brown: #E6BE6E
+	light blue:#A0D2BE
+	Dark blue:.
+	Red:      #C91F23
+
+*/
+body{
+
+	margin:0;
+	padding:0;
+	font-size:1em;
+
+}
+#wrapper{
+
+	width:100%;
+	overflow:hidden;
+
+}
+select{
+
+	margin-bottom:15px;
+}
+a{
+	text-decoration:none;
+}
+h1{
+
+	margin-top:0px;
+	margin-bottom:0px;
+}
+.right{
+
+	float:right;
+}
+.left{
+
+	float:left;
+}
+.clear{
+
+	clear:both;
+}
+.space{
+
+	margin-left:100px;
+}
+input[type=text] {
+	padding:5px; border:2px solid #ccc; 
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+input[type=text]:focus {
+	border-color:#333; }
+
+input[type=submit] {
+
+	padding:5px 15px; 
+	background:#C91F23; 
+	border:0 none;
+	cursor:pointer;
+	-webkit-border-radius: 5px;
+	border-radius: 5px; 
+}
+/*==== Header Section ====*/
+header{
+
+	width:100%;
+	height:50px;
+	background-color:#A33342;
+	overflow:hidden;
+	box-shadow:2px 2px 0px 2px #888;
+}
+footer{
+
+	width:100%;
+	margin-top:20px;
+	background-color:#A33342;
+	overflow:hidden;
+	box-shadow:2px 2px 0px 2px #888;
+}
+.info{
+
+	width:800px;
+	margin: 0 auto;
+}
+.home{
+
+	font-size:0.625em;/*10px*/
+	width:80px;
+	height:50px;
+	margin-top:0px;
+	margin-bottom:0px;
+	padding:10px;
+	color:white;
+	display:block;
+	font-style:italic;
+}
+a:hover{
+
+	
+	background-color:#c83c4f;
+
+
+}
+#result{
+
+	list-style:none;
+	float:left;
+}
+nav li{
+
+	display:inline-block;
+	float:right;
+}
+/*==== modal Section ====*/
+#back{
+
+	width:100%;
+	height:100%;
+	position:fixed;
+	background-color:rgba(0,0,0,.5);
+	display:none;
+	top:0;
+	left:0;
+	z-index:1000;
+}
+#modal{
+
+	width:500px;
+	height:300px;
+	overflow:hidden;
+	background-color:white;
+	position:relative;
+	display:none;
+	top:20%;
+	left:50%;
+	margin-left:-300px;
+	z-index:1001;
+	border-radius:10px;
+
+}
+#close{
+
+
+cursor:pointer;
+color:#C91F23;
+padding:5px;
+margin-top:2px;
+
+
+}
+input[name=Login]{
+
+	width:300px;
+	margin-left:60px;
+}
+div > h1{
+
+	margin-left:60px;
+	font-size:1em;/*16px*/
+	font-family: 'Cinzel', serif;
+	color:#C91F23
+}
+/*==== Main Search Row 1 Page ====*/
+#rowOne
+{
+	width:100%;
+	height:400px;
+	background-color:#424242;
+	overflow:hidden;
+}
+.logo{
+	
+	margin-left:30px;
+
+}
+#title{
+
+	font-size:4.375em;/*70px*/
+	font-family: 'Cinzel', serif;
+	color:#C91F23;
+	float:left;
+	margin-top:60px;
+	margin-left:320px;
+}
+#searchSection{
+
+	width:600px;
+	margin:0 auto;
+
+}
+.search{
+
+	width:400px;
+	height:30px;
+}
+#searchBtn{
+
+	width:50px;
+	height:30px;
+	background-color:#C91F23;
+}
+/*==== Main Search  Row 2 Page ====*/
+#rowTwo{
+
+	width:100%;
+	margin-top:20px;
+	overflow:hidden;
+	background-color:#FBF7E4;
+	border:2px solid black;
+}
+#bottomSection{
+
+	width:800px;
+	margin:0 auto;
+}
+#lastestNews{
+
+	width:300px;
+	margin-right:50px;
+
+}
+#top{
+
+	width:300px;
+	border-left:2px solid black;
+}
+.header{
+
+	border:2px solid black;
+	background-color:#F0DC96;
+}
+#gameBox li{
+
+	
+	display:inline-block;
+
+}
+.game{
+
+	width:50px;
+	height:80px;
+	background-color:white;
+	margin:10px;
+}
+h2{
+
+	margin-top:0px;
+	padding:10px;
+}
+p{
+	padding:15px;
+}
+/*==== Form Page ====*/
+#wrappertwo{
+
+	width:960px;
+	margin:0 auto;
+	margin-top:20px;
+	
+}
+#formHeader{
+
+	width:100%;
+	background-color:#FAFABE;
+}
+#Sign{
+
+	font-family: 'Cinzel', serif;
+	font-size:1.875em;/*30px*/
+	margin-left:70px;
+	margin-top:0px;
+	letter-spacing:5px;
+	color:#C91F23;
+
+}
+#info{
+
+	margin:0 auto;
+	font-size:1.000em;/*16px*/
+	font-family: 'Raleway', sans-serif;
+
+}
+#topSection{
+
+	width:300px;
+	height:500px;
+	padding:15px;
+	border:2px solid #888;
+	border-radius:10px;
+	margin-bottom:10px;
+	background-color:#424242;
+	float:left;
+
+}
+#heading{
+
+
+	margin-left:100px;
+	font-family: 'Cinzel', serif;
+
+
+}
+#benefits{
+
+
+	list-style:none;
+	font-family: 'Raleway', sans-serif;
+}
+#register{
+
+
+	width:500px;
+	height:500px;
+	background-color:#424242;
+	margin: 0 auto;
+	margin-left:10px;
+	border-radius:10px;
+	padding:15px;
+	float:left;
+}
+label{
+
+	margin-top:15px;
+	margin-bottom:20px;
+}
+input{
+
+	margin-top:15px;
+	margin-bottom:20px;
+
+}
+label{
+	
+	color:#A33342;
+	margin-right:10px;
+}
+legend{
+
+	font-family: 'Cinzel', serif;
+	color:#C91F23;
+	font-size:30px;/**/
+}
+/*==== Results Page ====*/
+#wrapperThree{
+	
+	width:100%;
+	margin-top:20px;
+	background-color:green;
+  
+}
+aside{
+
+	width:400px;
+	height:500px;
+	background-color:#FAFABE;
+	float:left;
+}
+#results{
+
+	width:900px;
+	height:500px;
+	background-color:#424242;
+	float:left;
+}
+#resultsHeader{
+
+	margin-left:320px;
+	font-family: 'Cinzel', serif;
+	color:#C91F23;
+}
+#filter{
+
+	margin-left:180px;
+	color:#C91F23;
+}
+/*==== media juery ====*/
+
+@media screen and (max-width:80em){  /*========= smaller resoultion Deskstop ==========*/
+
+#wrapper{
+
+	width:100%;
+	background-color:#26232E; 
+	margin:0 auto;
+
+}
+
+}
+
+@media screen and (max-width: 50em){/*==== ipad ====*/
+
+#wrapper{
+
+	width:100%;
+	background-color:#272554; 
+	margin:0 auto;
+}
+#gallery{
+
+	width:65.9167%;/*700px*/
+	clear:both;
+
+}
+@media screen and (max-width:31.250em){ /*==== Phone ====*/
+
+#wrapper{
+
+	width:100%;
+	background-color:white; 
+	margin:0 auto;
+}
+
+a[href='form.html']{
+
+	margin-right:30px;
+}
+#title{
+
+	font-size:2.500em;/*40px*/
+	font-family: 'Cinzel', serif;
+	color:#C91F23;
+	margin-left:30px;
+
+}
+.logo{
+	
+	display:none;
+
+}
+select{
+
+	color:#C91F23;
+	border-radius:5px;
+	margin-top:20px;
+	margin-left:5px;
+	width:70px;
+}
+.search{
+
+	width:200px;
+	height:30px;
+	margin-left:40px;
+}
+
+#top{
+
+	width:300px;
+	border-left:2px solid black;
+	clear:both;
+	margin-top:80px;
+}
+/*==== form page ====*/
+
+#register{
+
+	clear:both;
+}
+label{
+
+	clear:both;
+	
+}
+input[class="right"]{
+
+	
+	float:left;
+	margin-top:25px;
+	margin-left:10px; 
+}
+#register{
+
+
+	width:300px;
+	height:500px;
+	background-color:#424242;
+	margin: 0 auto;
+	margin-left:10px;
+	border-radius:10px;
+	padding:15px;
+	float:left;
+}
+}
